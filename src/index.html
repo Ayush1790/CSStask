@@ -12,81 +12,46 @@
     />
   </head>
   <style>
-    .red-text {
-      color: red;
+    .injected-text {
+      margin-bottom: -25px;
+      text-align: center;
     }
-    p {
-      font-size: 16px;
-      font-family: monospace;
+  
+    .box {
+      border-style: solid;
+      border-color: black;
+      border-width: 5px;
+      text-align: center;
     }
-    h2 {
-      font-family: Lobster, monospace;
+  
+    .yellow-box {
+      background-color: yellow;
+      padding: 10px;
     }
-    .smaller-image {
-      width: 100px;
+  
+    .red-box {
+      background-color: crimson;
+      color: #fff;
+      padding: 20px;
     }
-
-    .thick-green-border {
-      border: 10px solid green;
-      border-radius: 50%;
-    }
-    .silver-background {
-      background-color: si;
-    }
-    #cat-photo-form {
-        background-color: green;
+  
+    .blue-box {
+      background-color: blue;
+      color: #fff;
+      padding: 20px;
     }
   </style>
   <body>
-    <h2 class="red-text">CatPhotoApp</h2>
-    <main>
-      <p class="red-text">
-        Click here to view more <a href="#">cat photos</a>.
-      </p>
+    <h5 class="injected-text">margin</h5>
 
-      <a href="#"
-        ><img
-          class="smaller-image thick-green-border"
-          src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
-          alt="A cute orange cat lying on its back."
-      /></a>
-
-      <div class="silver-background">
-        <p>Things cats love:</p>
-        <ul>
-          <li>cat nip</li>
-          <li>laser pointers</li>
-          <li>lasagna</li>
-        </ul>
-        <p>Top 3 things cats hate:</p>
-        <ol>
-          <li>flea treatment</li>
-          <li>thunder</li>
-          <li>other cats</li>
-        </ol>
-      </div>
-
-      <form
-        id="cat-photo-form"
-        action="https://freecatphotoapp.com/submit-cat-photo"
-      >
-        <label
-          ><input type="radio" name="indoor-outdoor" checked /> Indoor</label
-        >
-        <label><input type="radio" name="indoor-outdoor" /> Outdoor</label
-        ><br />
-        <label
-          ><input type="checkbox" name="personality" checked /> Loving</label
-        >
-        <label><input type="checkbox" name="personality" /> Lazy</label>
-        <label><input type="checkbox" name="personality" /> Energetic</label
-        ><br />
-        <input type="text" placeholder="cat photo URL" required />
-        <button type="submit">Submit</button>
-      </form>
-    </main>
+    <div class="box yellow-box">
+      <h5 class="box red-box">padding</h5>
+      <h5 class="box blue-box">padding</h5>
+    </div>
   </body>
-  <!-- Change the Color of Text -->
+  <!-- Change the Color of Text --> <style>
+    
+  </style>
   <!-- Use CSS Selectors to Style Elements -->
   <!-- Use a CSS Class to Style an Element -->
   <!-- Style Multiple Elements with a CSS Class -->
@@ -101,4 +66,5 @@
   <!-- Give a Background Color to a div Element -->
   <!-- Set the id of an Element -->
   <!-- Use an id Attribute to Style an Element -->
+  <!-- Adjust the Padding of an Element -->
 </html>
